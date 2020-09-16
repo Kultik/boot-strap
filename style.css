@@ -1,0 +1,15 @@
+[class*=col] {
+  color: blue;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.col-* {
+  background-color: purple;
+}
+
+.col-12 {
+  text-align: center;
+  background: lightblue;
+}
+/*# sourceMappingURL=style.css.map */
