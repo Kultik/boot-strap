@@ -1,15 +1,47 @@
 [class*=col] {
-    color: blue;
-    border: 1px solid red;
+    color: black;
+    border: 2px solid black;
     text-align: center;
+    border-radius: 4px;
+    background: rgb(190, 114, 218);
 }
 
-.col-* {
-    background-color: purple;
+// .col-12 {
+//     text-align: center;
+// }
+
+// & > [class^="col-"] chck out
+
+
+.marimba {
+    .row {
+        div {
+            background: rgb(179, 88, 191);
+            border: 1px solid red;
+            border-radius: 0;
+            p {
+                border: 2px dotted black;
+                // padding: 0px;
+                // margin: auto;
+            }
+        }
+    }
 }
 
-.col-12 {
-    text-align: center;
-    background: lightblue;
+
+.samba {
+    .row {
+        // padding-right: 50px;
+        div {
+            background: none;
+            border: none;
+            // background: lightblue;
+            p {
+                background: rgb(199, 197, 197);
+                padding: 20px;
+            }
+        }
+    }
 }
+
 
